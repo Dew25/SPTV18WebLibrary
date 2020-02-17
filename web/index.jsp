@@ -14,11 +14,14 @@
     </head>
     <body>
         <h1>Hello SPTV18!</h1>
-        <p>${info}</p>
+        <p id="info">${info}</p>
         <p>
             <a href="showLogin">Вход</a><br>
             <a href="listBooks">Cписок книг</a><br>
             <a href="listReaders">Список читателей</a><br>
+            <a href="showNewBook">Добавить новую книгу</a><br>
+            <a href="showNewReader">Зарегистрировать читателя</a><br>
+            <a href="showTakeBook">Выдать книгу</a><br>
         </p>
         
     </body>
